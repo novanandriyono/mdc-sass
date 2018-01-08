@@ -1,0 +1,22 @@
+{
+  "name": "mdc-sass",
+  "version": "1.0.1",
+  "description": "mdc sass",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "node clean.js",
+    "dev": "npm run clean && node gulp.js && node del.js && node gulp-replace.js",
+    "production": "npm run clean && node production.js && node del.js && node gulp-replace.js"
+  },
+  "author": "Novan Andriyono <evelynradtya@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "material-components-web": "^0.27.0",
+    "pyfiles": "^1.0.1"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-replace": "^0.6.1"
+  }
+}
