@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/animation/functions";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
-@import "node_modules/mdc-sass/dist/@material/rtl/mixins";
+@import "./node_modules/mdc-sass/dist/@material/animation/functions";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/rtl/mixins";
 
 $mdc-tab-bar-scroller-indicator-width: 48px;
 
@@ -93,3 +93,4 @@ $mdc-tab-bar-scroller-indicator-width: 48px;
 }
 
 // postcss-bem-linter: end
+

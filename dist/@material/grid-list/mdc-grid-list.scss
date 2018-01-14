@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/rtl/mixins";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
-@import "node_modules/mdc-sass/dist/@material/typography/mixins";
+@import "./node_modules/mdc-sass/dist/@material/rtl/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/typography/mixins";
 
 $mdc-grid-list-tile-width: 200px !default;
 $mdc-grid-list-tile-secondary-padding: 16px;
@@ -194,3 +194,4 @@ $mdc-grid-list-tile-secondary-icon-size: 24px;
   }
 }
 // postcss-bem-linter: end
+

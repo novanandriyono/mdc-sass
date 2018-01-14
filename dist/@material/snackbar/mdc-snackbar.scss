@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/animation/functions";
-@import "node_modules/mdc-sass/dist/@material/rtl/mixins";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
-@import "node_modules/mdc-sass/dist/@material/typography/mixins";
+@import "./node_modules/mdc-sass/dist/@material/animation/functions";
+@import "./node_modules/mdc-sass/dist/@material/rtl/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/typography/mixins";
 @import "./variables";
 
 /* postcss-bem-linter: define snackbar */
@@ -176,3 +176,4 @@
 }
 
 /* postcss-bem-linter: end */
+

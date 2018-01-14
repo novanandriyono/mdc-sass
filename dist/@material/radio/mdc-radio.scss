@@ -14,9 +14,10 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/animation/functions";
-@import "node_modules/mdc-sass/dist/@material/ripple/mixins";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/animation/functions";
+@import "./node_modules/mdc-sass/dist/@material/ripple/common";
+@import "./node_modules/mdc-sass/dist/@material/ripple/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
 @import "./functions";
 @import "./mixins";
 @import "./variables";
@@ -178,3 +179,4 @@
 }
 
 // postcss-bem-linter: end
+

@@ -14,8 +14,8 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/elevation/mixins";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/elevation/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
 @import "./functions";
 @import "./mixins";
 @import "./variables";
@@ -182,3 +182,4 @@
     }
   }
 }
+

@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/theme/functions";
+@import "./node_modules/mdc-sass/dist/@material/theme/functions";
 
 $mdc-checkbox-container-keyframes-uid_: -1;
 
@@ -31,3 +31,4 @@ $mdc-checkbox-container-keyframes-uid_: -1;
 
   @return $mdc-checkbox-container-keyframes-uid_;
 }
+

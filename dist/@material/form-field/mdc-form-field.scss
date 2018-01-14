@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/rtl/mixins";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
-@import "node_modules/mdc-sass/dist/@material/typography/mixins";
+@import "./node_modules/mdc-sass/dist/@material/rtl/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/typography/mixins";
 
 $mdc-form-field-item-spacing: 4px;
 
@@ -62,3 +62,4 @@ $mdc-form-field-item-spacing: 4px;
   }
 }
 /* stylelint-enable selector-max-type */
+

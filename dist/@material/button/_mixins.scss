@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/elevation/mixins";
-@import "node_modules/mdc-sass/dist/@material/ripple/mixins";
-@import "node_modules/mdc-sass/dist/@material/theme/functions";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
-@import "node_modules/mdc-sass/dist/@material/typography/mixins";
+@import "./node_modules/mdc-sass/dist/@material/elevation/mixins";
+@import "./node_modules/mdc-sass/dist/@material/ripple/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/functions";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/typography/mixins";
 @import "./variables";
 
 @mixin mdc-button-filled-accessible($container-fill-color) {
@@ -166,7 +166,8 @@
 
 @mixin mdc-button--raised_() {
   @include mdc-elevation(2);
-  @include mdc-elevation-transition;
+
+  transition: mdc-elevation-transition-value();
 
   &:hover,
   &:focus {
@@ -191,3 +192,4 @@
   font-size: .8125rem; // 13sp
   line-height: $mdc-dense-button-height;
 }
+

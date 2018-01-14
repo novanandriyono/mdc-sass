@@ -14,8 +14,9 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/ripple/mixins";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/ripple/common";
+@import "./node_modules/mdc-sass/dist/@material/ripple/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -58,3 +59,4 @@
   @include mdc-button__icon_;
 }
 // postcss-bem-linter: end
+

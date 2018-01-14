@@ -14,12 +14,12 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/animation/functions";
-@import "node_modules/mdc-sass/dist/@material/elevation/mixins";
-@import "node_modules/mdc-sass/dist/@material/rtl/mixins";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
-@import "node_modules/mdc-sass/dist/@material/typography/mixins";
-@import "node_modules/mdc-sass/dist/@material/typography/variables";
+@import "./node_modules/mdc-sass/dist/@material/animation/functions";
+@import "./node_modules/mdc-sass/dist/@material/elevation/mixins";
+@import "./node_modules/mdc-sass/dist/@material/rtl/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/typography/mixins";
+@import "./node_modules/mdc-sass/dist/@material/typography/variables";
 
 $mdc-dialog-dark-theme-bg-color: #303030 !default;
 
@@ -190,3 +190,4 @@ $mdc-dialog-dark-theme-bg-color: #303030 !default;
 .mdc-dialog-scroll-lock {
   overflow: hidden;
 }
+

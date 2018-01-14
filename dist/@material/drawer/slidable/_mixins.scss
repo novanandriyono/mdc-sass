@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/rtl/mixins";
+@import "./node_modules/mdc-sass/dist/@material/rtl/mixins";
 
 @mixin mdc-slideable-drawer {
   height: 100%;
@@ -31,3 +31,4 @@
 @mixin mdc-slideable-drawer-open {
   transform: none;
 }
+

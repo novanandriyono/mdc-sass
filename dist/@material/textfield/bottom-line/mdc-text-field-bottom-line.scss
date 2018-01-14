@@ -15,7 +15,7 @@
 //
 
 @import "../functions";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
 
 // postcss-bem-linter: define textfield
 .mdc-text-field {

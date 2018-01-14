@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/animation/functions";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
-@import "node_modules/mdc-sass/dist/@material/rtl/mixins";
+@import "./node_modules/mdc-sass/dist/@material/animation/functions";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/rtl/mixins";
 
 // postcss-bem-linter: define tab-bar
 .mdc-tab-bar {
@@ -109,3 +109,4 @@
   }
 }
 // postcss-bem-linter: end
+

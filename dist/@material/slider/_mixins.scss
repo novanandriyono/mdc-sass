@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/theme/functions";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
-@import "node_modules/mdc-sass/dist/@material/theme/variables"; // for mdc-theme-prop-value
+@import "./node_modules/mdc-sass/dist/@material/theme/functions";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/variables"; // for mdc-theme-prop-value
 @import "./variables";
 
 //
@@ -127,3 +127,4 @@
     stroke: var(--mdc-slider-bg-color-behind-component, $color);
   }
 }
+

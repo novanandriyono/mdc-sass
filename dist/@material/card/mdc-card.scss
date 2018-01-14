@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/elevation/mixins";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
-@import "node_modules/mdc-sass/dist/@material/typography/mixins";
-@import "node_modules/mdc-sass/dist/@material/rtl/mixins";
+@import "./node_modules/mdc-sass/dist/@material/elevation/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/typography/mixins";
+@import "./node_modules/mdc-sass/dist/@material/rtl/mixins";
 
 // postcss-bem-linter: define card
 .mdc-card {
@@ -186,3 +186,4 @@
 }
 
 // postcss-bem-linter: end
+

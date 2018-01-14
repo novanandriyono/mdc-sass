@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/animation/functions";
+@import "./node_modules/mdc-sass/dist/@material/animation/functions";
 @import "./variables";
 
 @function mdc-radio-enter($name) {
@@ -24,3 +24,4 @@
 @function mdc-radio-exit($name) {
   @return mdc-animation-exit-temporary($name, $mdc-radio-transition-duration);
 }
+

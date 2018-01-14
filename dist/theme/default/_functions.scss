@@ -42,6 +42,10 @@ $_mdc-theme-tonal-offset: 7%;
 
 // Determine whether the color is "light" or "dark".
 @function mdc-theme-tone($color) {
+  @if $color == "dark" or $color == "light" {
+    @return $color;
+  }
+
   $minimumContrast: 3.1;
 
   $lightContrast: mdc-theme-contrast($color, white);
@@ -126,3 +130,4 @@ $_mdc-theme-tonal-offset: 7%;
 @function mdc-theme-light-variant($color, $num-indexes: 2) {
   @return map-get(mdc-theme-tonal-variants_($color, $num-indexes), light);
 }
+

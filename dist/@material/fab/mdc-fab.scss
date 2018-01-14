@@ -12,8 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-@import "node_modules/mdc-sass/dist/@material/ripple/mixins";
-@import "node_modules/mdc-sass/dist/@material/ripple/variables";
+@import "./node_modules/mdc-sass/dist/@material/ripple/common";
+@import "./node_modules/mdc-sass/dist/@material/ripple/mixins";
+@import "./node_modules/mdc-sass/dist/@material/ripple/variables";
 @import "./mixins";
 
 // postcss-bem-linter: define fab
@@ -38,3 +39,4 @@
 }
 
 // postcss-bem-linter: end
+

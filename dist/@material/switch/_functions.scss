@@ -14,8 +14,9 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/animation/variables";
+@import "./node_modules/mdc-sass/dist/@material/animation/variables";
 
 @function mdc-switch-transition($property) {
   @return $property 90ms $mdc-animation-standard-curve-timing-function;
 }
+

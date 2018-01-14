@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-@import "node_modules/mdc-sass/dist/@material/animation/functions";
-@import "node_modules/mdc-sass/dist/@material/elevation/mixins";
-@import "node_modules/mdc-sass/dist/@material/elevation/variables";
-@import "node_modules/mdc-sass/dist/@material/ripple/mixins";
-@import "node_modules/mdc-sass/dist/@material/ripple/variables";
-@import "node_modules/mdc-sass/dist/@material/theme/functions";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/animation/functions";
+@import "./node_modules/mdc-sass/dist/@material/elevation/mixins";
+@import "./node_modules/mdc-sass/dist/@material/elevation/variables";
+@import "./node_modules/mdc-sass/dist/@material/ripple/mixins";
+@import "./node_modules/mdc-sass/dist/@material/ripple/variables";
+@import "./node_modules/mdc-sass/dist/@material/theme/functions";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
 
 @mixin mdc-fab-accessible($container-color) {
   $fill-tone: mdc-theme-tone($container-color);
@@ -134,3 +134,4 @@ $mdc-fab-icon-enter-duration_: 180ms;
     transition: mdc-animation-exit-permanent(transform, 135ms);
   }
 }
+

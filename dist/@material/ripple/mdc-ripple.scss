@@ -14,8 +14,9 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/animation/functions";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/animation/functions";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./common";
 @import "./mixins";
 @import "./variables";
 
@@ -44,3 +45,4 @@
 }
 
 // postcss-bem-linter: end
+

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-@import "node_modules/mdc-sass/dist/@material/animation/functions";
+@import "./node_modules/mdc-sass/dist/@material/animation/functions";
 @import "./keyframes";
 @import "./mixins";
 @import "./variables";
@@ -131,3 +131,4 @@
     left: auto;
   }
 }
+

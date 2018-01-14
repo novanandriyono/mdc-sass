@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
 @import "./variables";
 
 //
@@ -72,3 +72,4 @@
   width: $mdc-switch-focus-ring-diameter;
   height: $mdc-switch-focus-ring-diameter;
 }
+

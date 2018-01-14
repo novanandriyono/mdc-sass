@@ -14,11 +14,13 @@
 // limitations under the License.
 //
 
-@import "node_modules/mdc-sass/dist/@material/animation/functions";
-@import "node_modules/mdc-sass/dist/@material/typography/mixins";
-@import "node_modules/mdc-sass/dist/@material/theme/mixins";
-@import "node_modules/mdc-sass/dist/@material/ripple/mixins";
-@import "node_modules/mdc-sass/dist/@material/rtl/mixins";
+@import "./node_modules/mdc-sass/dist/@material/animation/functions";
+@import "./node_modules/mdc-sass/dist/@material/typography/mixins";
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
+@import "./node_modules/mdc-sass/dist/@material/ripple/common";
+@import "./node_modules/mdc-sass/dist/@material/ripple/mixins";
+@import "./node_modules/mdc-sass/dist/@material/rtl/mixins";
+@import "./mixins";
 
 $mdc-tab-with-text-height: 48px;
 $mdc-tab-with-icon-and-text-height: 72px;
@@ -31,6 +33,7 @@ $mdc-tab-with-icon-and-text-height: 72px;
 // postcss-bem-linter: define tab
 .mdc-tab {
   @include mdc-typography(body2);
+  @include mdc-tab-ink-color(text-secondary-on-light);
 
   display: table-cell;
   position: relative;
@@ -45,10 +48,9 @@ $mdc-tab-with-icon-and-text-height: 72px;
   overflow: hidden;
   vertical-align: middle;
 
-  @include mdc-theme-prop(color, text-secondary-on-light);
 
   &:hover {
-    @include mdc-theme-prop(color, text-primary-on-light);
+    @include mdc-tab-ink-color(text-primary-on-light);
   }
 
   &:focus {
@@ -96,7 +98,7 @@ $mdc-tab-with-icon-and-text-height: 72px;
 }
 
 .mdc-tab--active {
-  @include mdc-theme-prop(color, text-primary-on-light);
+  @include mdc-tab-ink-color(text-primary-on-light);
 
   @include mdc-theme-dark(".mdc-tab-bar") {
     @include mdc-theme-prop(color, text-primary-on-dark);
@@ -177,3 +179,4 @@ $mdc-tab-with-icon-and-text-height: 72px;
   // stylelint-enable plugin/selector-bem-pattern
 }
 // postcss-bem-linter: end
+
