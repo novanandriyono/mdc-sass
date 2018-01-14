@@ -1,0 +1,17 @@
+@import "./node_modules/mdc-sass/dist/@material/theme/mixins";
+
+@mixin mdc-tab-ink-color($color) {
+  @include mdc-tab-label-ink-color($color);
+  @include mdc-tab-icon-ink-color($color);
+}
+
+@mixin mdc-tab-label-ink-color($color) {
+  @include mdc-theme-prop(color, $color);
+}
+
+@mixin mdc-tab-icon-ink-color($color) {
+  .mdc-tab__icon {
+    @include mdc-theme-prop(color, $color);
+  }
+}
+
