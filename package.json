@@ -2,21 +2,15 @@
   "name": "mdc-sass",
   "version": "1.0.2",
   "description": "mdc sass",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "node clean.js",
-    "dev": "npm run clean && node gulp.js && node del.js && node gulp-replace.js",
-    "production": "npm run clean && node production.js && node del.js && node gulp-replace.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Novan Andriyono <evelynradtya@gmail.com>",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "dependencies": {
-    "material-components-web": "^0.27.0",
-    "pyfiles": "^1.0.1"
-  },
-  "devDependencies": {
-    "del": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-replace": "^0.6.1"
+    "material-components-web": "^0.28.0",
+    "pyfiles": "^1.0.1",
+    "pyfiles-copy": "^1.0.2"
   }
 }
