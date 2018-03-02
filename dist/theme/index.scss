@@ -14,9 +14,11 @@
 // limitations under the License.
 //
 
+@import "./node_modules/mdc-sass/dist/@material/line-ripple/mdc-line-ripple";
 @import "./node_modules/mdc-sass/dist/@material/button/mdc-button";
 @import "./node_modules/mdc-sass/dist/@material/card/mdc-card";
 @import "./node_modules/mdc-sass/dist/@material/checkbox/mdc-checkbox";
+@import "./node_modules/mdc-sass/dist/@material/chips/mdc-chips";
 @import "./node_modules/mdc-sass/dist/@material/dialog/mdc-dialog";
 @import "./node_modules/mdc-sass/dist/@material/drawer/mdc-drawer";
 @import "./node_modules/mdc-sass/dist/@material/elevation/mdc-elevation";
