@@ -14,7 +14,6 @@
 // limitations under the License.
 //
 
-@import "./node_modules/mdc-sass/dist/@material/line-ripple/mdc-line-ripple";
 @import "./node_modules/mdc-sass/dist/@material/button/mdc-button";
 @import "./node_modules/mdc-sass/dist/@material/card/mdc-card";
 @import "./node_modules/mdc-sass/dist/@material/checkbox/mdc-checkbox";
@@ -23,10 +22,12 @@
 @import "./node_modules/mdc-sass/dist/@material/drawer/mdc-drawer";
 @import "./node_modules/mdc-sass/dist/@material/elevation/mdc-elevation";
 @import "./node_modules/mdc-sass/dist/@material/fab/mdc-fab";
+@import "./node_modules/mdc-sass/dist/@material/floating-label/mdc-floating-label";
 @import "./node_modules/mdc-sass/dist/@material/form-field/mdc-form-field";
 @import "./node_modules/mdc-sass/dist/@material/grid-list/mdc-grid-list";
 @import "./node_modules/mdc-sass/dist/@material/icon-toggle/mdc-icon-toggle";
 @import "./node_modules/mdc-sass/dist/@material/layout-grid/mdc-layout-grid";
+@import "./node_modules/mdc-sass/dist/@material/line-ripple/mdc-line-ripple";
 @import "./node_modules/mdc-sass/dist/@material/linear-progress/mdc-linear-progress";
 @import "./node_modules/mdc-sass/dist/@material/list/mdc-list";
 @import "./node_modules/mdc-sass/dist/@material/menu/mdc-menu";
@@ -40,5 +41,6 @@
 @import "./node_modules/mdc-sass/dist/@material/textfield/mdc-text-field";
 @import "./node_modules/mdc-sass/dist/@material/theme/mdc-theme";
 @import "./node_modules/mdc-sass/dist/@material/toolbar/mdc-toolbar";
+@import "./node_modules/mdc-sass/dist/@material/top-app-bar/mdc-top-app-bar";
 @import "./node_modules/mdc-sass/dist/@material/typography/mdc-typography";
 
