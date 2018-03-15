@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/novanandriyono/mdc-sass"
+  },
   "author": "Novan Andriyono <evelynradtya@gmail.com>",
   "license": "UNLICENSED",
   "dependencies": {
