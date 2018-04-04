@@ -28,3 +28,7 @@
   @return $name $duration $delay $mdc-animation-sharp-curve-timing-function;
 }
 
+@function mdc-animation-standard($name, $duration, $delay: 0ms) {
+  @return $name $duration $delay $mdc-animation-standard-curve-timing-function;
+}
+
