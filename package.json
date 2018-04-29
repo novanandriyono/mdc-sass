@@ -4,7 +4,8 @@
   "description": "mdc sass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "npm update && node update"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,7 @@
   "author": "Novan Andriyono <evelynradtya@gmail.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "material-components-web": "^0.34.1",
+    "material-components-web": "^0",
     "pyfiles": "^1.0.5",
     "pyfiles-copy": "^1.0.3"
   }
