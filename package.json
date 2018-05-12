@@ -15,7 +15,6 @@
   "license": "UNLICENSED",
   "dependencies": {
     "material-components-web": "^0",
-    "pyfiles": "^1.0.5",
-    "pyfiles-copy": "^1.0.3"
+    "pyfiles-copy": "^1.0.4"
   }
 }
