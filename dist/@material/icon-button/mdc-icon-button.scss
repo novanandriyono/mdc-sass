@@ -1,5 +1,5 @@
 //
-// Copyright 2017 Google Inc. All Rights Reserved.
+// Copyright 2018 Google Inc. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,17 +14,20 @@
 // limitations under the License.
 //
 
-@import "./node_modules/mdc-sass/dist/@material/animation/variables";
+// postcss-bem-linter: define icon-button
 
-@function mdc-floating-label-transition($property) {
-  @return #{$property} 180ms $mdc-animation-standard-curve-timing-function;
+@import "./mixins";
+
+.mdc-icon-button {
+  @include mdc-icon-button-base_;
+  @include mdc-states;
 }
 
+.mdc-icon-button--disabled {
+  @include mdc-theme-prop(color, text-disabled-on-light);
 
+  pointer-events: none;
+}
 
-
-
-
-
-
+// postcss-bem-linter: end
 
