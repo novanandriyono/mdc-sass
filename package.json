@@ -14,7 +14,7 @@
   "author": "Novan Andriyono <evelynradtya@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "material-components-web": "^0.*",
+    "material-components-web": "^0.42.1",
     "pyfiles-copy": "^1.0.4"
   }
 }
