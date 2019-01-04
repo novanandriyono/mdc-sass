@@ -19,13 +19,3 @@
 @function mdc-floating-label-transition($property) {
   @return #{$property} 180ms $mdc-animation-standard-curve-timing-function;
 }
-
-
-
-
-
-
-
-
-
-

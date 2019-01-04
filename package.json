@@ -12,7 +12,7 @@
     "url": "https://github.com/novanandriyono/mdc-sass"
   },
   "author": "Novan Andriyono <evelynradtya@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "material-components-web": "^0.42.1",
     "pyfiles-copy": "^1.0.4"
